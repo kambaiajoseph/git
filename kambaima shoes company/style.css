@@ -159,3 +159,34 @@ payment-gateway {
 
 /* Your existing styles can be retained here */
 
+/* Default styles for all devices */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Responsive styles for smaller screens (phones) */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    /* Add more styles specific to smaller screens */
+  }
+  
+  /* Responsive styles for medium-sized screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+    /* Add more styles specific to medium-sized screens */
+  }
+  
+  /* Responsive styles for larger screens (computers) */
+  @media only screen and (min-width: 1025px) {
+    body {
+      font-size: 18px;
+    }
+    /* Add more styles specific to larger screens */
+  }
+  
